@@ -5,15 +5,6 @@
 .
 |-- README.md
 |-- conf
-|-- couplet_generator
-|-- requirements.txt
-`-- scripts
-
-3 directories, 2 files
- ~/PycharmProjects/couplet_generator   master  tree -L 2
-.
-|-- README.md
-|-- conf
 |   `-- config.yaml
 |-- couplet_generator
 |   |-- __init__.py
