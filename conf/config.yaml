@@ -1,0 +1,23 @@
+log:
+  level: INFO
+  file_name: main.log
+seq2seq_allen:
+  src_embedding_dim: 256
+  trg_embedding_dim: 256
+  hidden_dim: 128
+  batch_size: 32
+  model_path: /users4/chzhu/data/couplet/model
+  vocab_path: /users4/chzhu/data/couplet/model/vocab
+  origin_data_prefix: /users4/chzhu/data/couplet
+  origin_train_source_data: train/in.txt
+  origin_train_target_data: train/out.txt
+  origin_test_source_data: test/in.txt
+  origin_test_target_data: test/out.txt
+  processed_data_prefix: /users4/chzhu/data/couplet/processed
+  small_data_prefix: /users4/chzhu/data/couplet/processed/small
+  train_data: train_data.tsv
+  test_data: test_data.tsv
+  epoch: 100
+  patience: 5
+
+
