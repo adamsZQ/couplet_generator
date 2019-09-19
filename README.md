@@ -24,3 +24,7 @@ allennlp
 ```
 ## dataset
 you can download dataset from https://github.com/wb14123/couplet-dataset
+
+or
+
+you can download data and model which can be used immediately at https://drive.google.com/file/d/1I5q5cUpeBuX9Vm57v5GjX0fcZTFrJ0aj/view?usp=sharing
