@@ -1,6 +1,10 @@
 # couplet_generator
-该项目为利用简单的seq2seq完成对对联功能
-## 项目结构
+couplet generator with simple seq2seq model
+
+python 3.6
+torch 1.1
+allennlp
+## Structure
 ```
 .
 |-- README.md
@@ -18,3 +22,5 @@
     `-- seq2seq_allen
 
 ```
+## dataset
+you can download dataset from https://github.com/wb14123/couplet-dataset
